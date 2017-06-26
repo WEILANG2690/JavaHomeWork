@@ -10,7 +10,7 @@ public class AccountEX1 {
 			InUserID = input.nextLine();
 			System.out.println("請輸入密碼");
 			InUserPW = input.nextLine();
-			if (InUserID.equals(UserID) || InUserPW.equals(UserPW)) {
+			if (InUserID.equals(UserID) && InUserPW.equals(UserPW)) {
 				System.out.println("登入成功");
 				break;
 			} else {
